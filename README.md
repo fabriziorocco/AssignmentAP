@@ -2,8 +2,6 @@
 
 ## Assignment Advanced Programming with Python
 
-![alt text](https://github.com/fabriziorocco/Airbnb-Project/blob/main/data/pict.jpg?raw=true)
-
 ## About
 Scope of this project was to create a warehouse management system accessible by CLI. The code is composed by Stock's classes and Warehouse class. Moreover, an handler of user's input has been added to simulate the interface in the terminal.
 
