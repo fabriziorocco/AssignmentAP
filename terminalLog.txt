@@ -1,0 +1,94 @@
+Partial Log
+
+
+
+fabriziorocco AssignmentAP % source bin/venv/activate
+source: no such file or directory: bin/venv/activate
+fabriziorocco AssignmentAP % source /bin/venv/activate
+source: no such file or directory: /bin/venv/activate
+fabriziorocco AssignmentAP % source venv/bin/activate                                                      
+(venv) fabriziorocco AssignmentAP % python3 main.py
+Traceback (most recent call last):
+  File "/Users/fabriziorocco/Desktop/AssignmentAP/main.py", line 4, in <module>
+    from typing_extensions import Self
+ModuleNotFoundError: No module named 'typing_extensions'
+(venv) fabriziorocco AssignmentAP % pip install click 
+Requirement already satisfied: click in /opt/anaconda3/lib/python3.9/site-packages (8.0.4)
+(venv) fabriziorocco AssignmentAP % pip install typing-extensions
+Requirement already satisfied: typing-extensions in /opt/anaconda3/lib/python3.9/site-packages (4.1.1)
+(venv) fabriziorocco AssignmentAP % python3 main.py              
+Traceback (most recent call last):
+  File "/Users/fabriziorocco/Desktop/AssignmentAP/main.py", line 4, in <module>
+    from typing_extensions import Self
+ModuleNotFoundError: No module named 'typing_extensions'
+(venv) fabriziorocco AssignmentAP % pip install typing-extensions
+Requirement already satisfied: typing-extensions in /opt/anaconda3/lib/python3.9/site-packages (4.1.1)
+(venv) fabriziorocco AssignmentAP % 
+
+ Session contents restored from 19/06/2022 at 16:45:47 
+
+fabriziorocco AssignmentAP % source venv/bin/activate     
+(venv) fabriziorocco AssignmentAP % python3 main.py              
+Traceback (most recent call last):
+  File "/Users/fabriziorocco/Desktop/AssignmentAP/main.py", line 4, in <module>
+    from typing_extensions import Self
+ModuleNotFoundError: No module named 'typing_extensions'
+(venv) fabriziorocco AssignmentAP % pip install typing-extensions
+Requirement already satisfied: typing-extensions in /opt/anaconda3/lib/python3.9/site-packages (4.1.1)
+(venv) fabriziorocco AssignmentAP % python3 main.py              
+Che magazzino vuoi usare?Barcelona
+Please choose: 
+
+1) Barcelona
+2) Madrid
+Enter number: ^Z
+zsh: suspended  python3 main.py
+(venv) fabriziorocco AssignmentAP % python3 main.py
+Please choose: 
+
+1) Barcelona
+2) Madrid
+Enter number: 1
+Please choose: 
+
+1) Add Stock
+2) Remove Stock
+3) Find Stock
+4) Get all Stocks
+5) Quit
+Enter number: 1
+Please choose: 
+
+1) Add a Phone stock
+2) Add a Computer stock
+3) Add a Tablet stock
+4) Add a Television stock
+Enter number: 2
+How many stocks of computer do you want to add?12
+
+
+ Added 12 stocks of computer ! 
+
+
+Please choose: 
+
+1) Add Stock
+2) Remove Stock
+3) Find Stock
+4) Get all Stocks
+5) Quit
+Enter number: 4
+{'Amount of Phones': 0, 'Amount of Computers': 12, 'Amount of Tablets': 0, 'Amount of Televisions': 0}
+Please choose: 
+
+1) Add Stock
+2) Remove Stock
+3) Find Stock
+4) Get all Stocks
+5) Quit
+Enter number: 5
+(venv) fabriziorocco AssignmentAP % 
+
+ Session contents restored from 19/06/2022 at 16:48:28 
+
+fabriziorocco AssignmentAP % 
